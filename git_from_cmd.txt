@@ -1,0 +1,92 @@
+First we must know what is a GIT. It is a version control system that is used to track the changes made on a open source git project. Like what changes were made, who made what change, when the changes were made and a lot more that you will learn throughout your git journey.
+
+First lets check the git version present on your local machine.
+
+git --version
+git config --global user.name
+git config --global user.email
+mkdir FOLDER NAME
+cd FOLDER NAME
+git init
+ls -a
+git add git_from_cmd
+git add .
+git commit -m "commit message"
+git commit -a -m "commit message"
+
+To compare the changes use this command!
+git diff sha-of-one-commit sha-of-another-commit 
+
+Now what is sha 
+sha is a hexadecimal number used to identify different commit.
+
+git status- to know the current status of the current directory
+
+git diff HEAD HEAD~1 -p
+HEAD is a pointer which points to the last version.
+
+To get the list of all the commits details, use this command
+git log
+
+
+git show sha-of -the-commit
+This command is merge of fit diff and git log.By using "show" , the details like author ,date and other details of a particular commit is printed on your screen.
+
+
+git annotate file-name
+git annotate Vikasgit
+to see the commits of a particular file
+
+
+
+git checkout --file-name
+suppose you made some changes and didnt add them. To go back to the last commited version we will use this command.
+
+
+git reset HEAD file-name
+git reset HEAD vikasgit
+This will reverse the last change you made. 
+
+
+git checkout sha-of -the- commit -you -want -to -go  file-name
+Now if you are in a conditon when you commited some changes and soon you find that you did something wrong. Then you can go back to a previous version with this command.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
